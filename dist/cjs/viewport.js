@@ -4488,8 +4488,8 @@ class PluginManager
 
 
 const DEFAULT_VIEWPORT_OPTIONS = {
-    screenWidth: window.innerWidth,
-    screenHeight: window.innerHeight,
+    screenWidth: 0,
+    screenHeight: 0,
     worldWidth: null,
     worldHeight: null,
     threshold: 5,
